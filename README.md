@@ -19,11 +19,13 @@ Write the C Program using Linux Process API - Shared Memory
 Execute the C Program for the desired output. 
 
 # PROGRAM:
+```
+Developed By: Varadaram SK
 
+Reg No: 212223040232
+```
 ## Write a C program that illustrates two processes communicating using shared memory.
-
-
-```c
+```
 //shm.c
 
 #include<unistd.h> 
@@ -125,10 +127,15 @@ fprintf(stderr, "shmdt failed\n"); exit(EXIT_FAILURE);
 ```
 
 
+
+
 ## OUTPUT
 
-![Alt text](<Screenshot 2024-04-14 220527.png>)
+![319117641-388a0d8f-b4af-43d0-a08a-92cb7188ec14](https://github.com/sabithapaulraj/Linux-IPC-Shared-memory/assets/118343379/09a6887d-9efa-4f6c-b0f1-cebfbf92ea6d)
 
-![Alt text](<Screenshot 2024-04-14 223244.png>)
+![319117771-96e1d580-58c9-4c90-a704-a1d0f5cca281](https://github.com/sabithapaulraj/Linux-IPC-Shared-memory/assets/118343379/88576617-5f52-4771-b06a-23c88a146bf7)
+
+
+
 # RESULT:
 The program is executed successfully.
